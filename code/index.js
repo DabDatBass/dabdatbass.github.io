@@ -1,4 +1,10 @@
 class silvxrtools {
+  constructor(runtime, extensionId) {
+		this.runtime = runtime;
+	}
+	static get STATE_KEY() {
+		return 'Scratch.websockets';
+	}
   getInfo () {
     return {
       id: 'someBlocks',
