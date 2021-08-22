@@ -8,6 +8,7 @@ class silvxrtools {
     return {
       id: 'silvxrtools',
       name: 'silvxrtools',
+      menuIconURI: cl_icon,
       blocks: [
       {
         opcode: 'myReporter',
