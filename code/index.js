@@ -1,15 +1,13 @@
 class silvxrtools {
   constructor(runtime, extensionId) {
-		this.runtime = runtime;
-	}
-	static get STATE_KEY() {
-		return 'Scratch.websockets';
-	}
+	this.runtime = runtime;
+  }
   getInfo () {
     return {
       id: 'someBlocks',
       name: 'Some Blocks',
-      blocks: [{
+      blocks: [
+      {
         opcode: 'myReporter',
         blockType: BlockType.REPORTER,
         text: 'letter [LETTER_NUM] of [TEXT]',
@@ -23,7 +21,8 @@ class silvxrtools {
             defaultValue: 'text'
           }
         }
-      }]
+      }
+      ]
     };
   }
 }
