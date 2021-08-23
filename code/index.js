@@ -30,7 +30,7 @@ class silvxrtools {
   }
   myReporter(args) {
     // Implement the function here
-    return String(args.TEXT).charAt(Number(args.LETTER_NUM)+1)
+    return String(args.TEXT).charAt(Number(args.LETTER_NUM))
   };
 }
 Scratch.extensions.register(new silvxrtools());
