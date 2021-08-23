@@ -28,5 +28,9 @@ class silvxrtools {
       ]
     };
   }
+  myReporter(args) {
+    // Implement the function here
+    return args.TEXT.charAt(args.LETTTER_NUM) 
+  };
 }
 Scratch.extensions.register(new silvxrtools());
